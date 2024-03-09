@@ -29,4 +29,10 @@ public class materia {
     public void setNameMateria(String nameMateria) {
         this.nameMateria = nameMateria;
     }
+
+    @Override
+    public String toString() {
+        return
+                "idMateria= " + idMateria ;
+    }
 }

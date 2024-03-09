@@ -114,7 +114,7 @@ public  class SchoolGrandingSystem extends GrandingSystem  {
     }
     @Override
     public String toString() {
-        return "Materia " + name + " Genero " + sex+ " Materia "  + nameMateria + " Notas " + notas ;
+        return " " + name + "  " + sex+ "  "  + nameMateria + " notas " + notas ;
     }
 }
 

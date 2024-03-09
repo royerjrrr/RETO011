@@ -29,4 +29,13 @@ public class estudiante {
     public void setIdEstudiante(double idEstudiante) {
         this.idEstudiante = idEstudiante;
     }
+
+
+    @Override
+    public String toString() {
+        return
+                "idEstudiante=" + idEstudiante
+                ;
+    }
 }
+

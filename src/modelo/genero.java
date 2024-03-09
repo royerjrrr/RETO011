@@ -29,4 +29,11 @@ public class genero {
     public void setIdGenero(double idGenero) {
         this.idGenero = idGenero;
     }
+
+    @Override
+    public String toString() {
+        return
+                "idGenero=" + idGenero
+                ;
+    }
 }
